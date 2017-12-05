@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">	
+	<title>Cube</title>
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="cube.css">
+</head>
+<body>
+
+	<canvas id="canvas-touch" width="250" height="250"></canvas>
+	<div class="head">
+		<div class="center perspective">
+			<div class="cube spin-y">
+				<div class="cube spin-x">
+					<div class="face left">
+						<img class="center" src="img/guy.svg">
+					</div>
+					<div class="face right">
+					</div>
+					<div class="face front"></div>
+					<div class="face top"></div>
+					<div class="face bottom"></div>
+					<div class="face back"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<button id="btn-previous" onclick="display(-1)">Prev</button>
+		<button id="btn-next" onclick="display(1)">Next</button>
+		<div class="slide">
+			<h1>OLÁ!</h1>
+			<p>Me chamo Lucas. Qual o seu nome?</p>
+			<input type="text" name="name" onchange="getName(this.value)">
+		</div>
+		<div class="slide">
+			<h1>Hello, <span></span>!<br>Nice to Meet You.</h1>
+			<p>I speak english too... kind of...</p>
+		</div>
+		<div class="slide">
+			<h1>That's all folks</h1>
+			<p>Por enquanto</p>
+		</div>
+	</main>
+
+	<script type="text/javascript" src="touch.js" ></script>
+	<script type="text/javascript" src="slides.js" ></script>
+</body>
+</html>

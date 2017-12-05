@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="madguy.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="162.32669"
+     inkscape:cy="566.64863"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1283"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:#d40000;fill-opacity:1"
+       id="g4556"
+       transform="matrix(1.6248783,0,0,1.6248783,-50.472399,-20.54811)">
+      <rect
+         y="54.421127"
+         x="48.643051"
+         height="44.901279"
+         width="31.003265"
+         id="rect4485"
+         style="opacity:0.98999999;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30000001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         y="54.421127"
+         x="111.71866"
+         height="44.901279"
+         width="31.003265"
+         id="rect4485-2"
+         style="opacity:0.98999999;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30000001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    </g>
+    <g
+       style="fill:#d40000;fill-opacity:1"
+       id="g4552"
+       transform="matrix(1.2876394,0,0,-0.88742706,-33.691142,380.26186)">
+      <rect
+         y="187.41948"
+         x="39.021351"
+         height="22.45064"
+         width="137.37653"
+         id="rect4502"
+         style="opacity:0.98999999;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30000001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="rotate(90)"
+         y="-61.471989"
+         x="170.31424"
+         height="22.45064"
+         width="39.555882"
+         id="rect4502-0"
+         style="opacity:0.98999999;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16097948;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <rect
+         transform="rotate(90)"
+         y="-176.39787"
+         x="170.31424"
+         height="22.45064"
+         width="39.555882"
+         id="rect4502-0-7"
+         style="opacity:0.98999999;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16097948;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    </g>
+  </g>
+</svg>

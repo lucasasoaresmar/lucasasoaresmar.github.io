@@ -1,0 +1,136 @@
+:root {
+	--main-size: 50vmin;
+	--main-half-size: calc(var(--main-size)/2);
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	background-color: #f8f8f8;
+	font-family: "VT323";
+	font-variant-caps: petite-caps;
+}
+
+h1 {
+	font-size: 10rem;
+	margin: 3vh auto;
+}
+
+p {
+	font-size: 2rem;
+	margin-top: 3vmin;
+}
+
+.center {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+#canvas-touch { 
+	margin:0;
+	position:relative;		
+	height: 100vh;
+	width: 100vw;
+}
+
+.head {
+	position: absolute;
+	width: 40vw;
+	height: 100vh;
+	top: 0;
+}
+
+.perspective {
+	margin: auto;
+	width: var(--main-size);
+	height: var(--main-size);
+	perspective: 600px;
+	position: absolute;
+}
+
+.cube {
+	position: relative;
+	width: inherit;
+	height: inherit;
+	transform-style: preserve-3d;
+}
+
+.face {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	background-color: #f8f8f8;
+}
+
+.front {
+	transform: translate3d(0, 0, var(--main-half-size));
+}
+
+.back {
+	transform: rotateY(180deg) translate3d(0, 0, var(--main-half-size));
+}
+
+.left {
+	transform: rotateY(-90deg) translate3d(0, 0, var(--main-half-size));
+}
+
+.left > img {
+	height: 150%;
+	width: auto;
+}
+
+.right {
+	transform: rotateY(90deg) translate3d(0, 0, var(--main-half-size));
+}
+
+.bottom {
+	transform: rotateX(-90deg) translate3d(0, 0, var(--main-half-size));
+}
+
+.top {
+	transform: rotateX(90deg) translate3d(0, 0, var(--main-half-size));
+}
+
+.spin-y {
+	transform: rotateY(90deg);
+}
+
+main {
+	width: 60vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 40vw;
+}
+
+.slide {
+	width: 80%;
+	height: 100vh;
+	display: none;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	overflow-y: scroll;
+	padding: 0 200px;
+}
+
+.slide:nth-of-type(1) {
+	display: block;
+}
+
+input[name = name] {
+	border: none;
+	background: #61ffd2;
+	font: inherit;
+	text-align: inherit;
+	font-size: 2rem;
+}
