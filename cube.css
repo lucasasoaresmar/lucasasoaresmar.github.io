@@ -104,7 +104,7 @@ p {
 
 main {
 	width: 60vw;
-	height: 100vh;
+	height: 95vh;
 	position: absolute;
 	top: 0;
 	left: 40vw;
@@ -112,15 +112,10 @@ main {
 
 .slide {
 	width: 80%;
-	height: 100vh;
+	height: 100%;
 	display: none;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
 	overflow-y: scroll;
-	padding: 0 200px;
+	padding: 0 100px;
 }
 
 .slide:nth-of-type(1) {
@@ -133,4 +128,5 @@ input[name = name] {
 	font: inherit;
 	text-align: inherit;
 	font-size: 2rem;
+	margin-bottom: 100px;
 }
