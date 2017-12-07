@@ -22,3 +22,15 @@ getName = (name) => {
 	mainChildsList[1].querySelector("span").textContent = name;
 	display(1);
 }
+
+/*disableBtn = (slide_display) => {
+	const upButton = document.querySelector(".btn > button:nth-of-type(1)").style.display;
+	const downButton = document.querySelector(".btn > button:nth-of-type(2)").style.display;
+	const lastSlide = mainChildsList.length;
+	switch (slide_display) {
+		case 0:
+			upButton = "none";
+			break;
+		case lastSlide
+	}
+}*/

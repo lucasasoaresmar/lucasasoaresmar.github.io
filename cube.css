@@ -1,6 +1,7 @@
 :root {
 	--main-size: 50vmin;
 	--main-half-size: calc(var(--main-size)/2);
+	--main-color: #39c9ac;
 }
 
 html {
@@ -17,12 +18,15 @@ body {
 
 h1 {
 	font-size: 10rem;
-	margin: 3vh auto;
+	margin: 0;
+}
+
+h2 {
+	font-size: 5rem;
 }
 
 p {
 	font-size: 2rem;
-	margin-top: 3vmin;
 }
 
 .center {
@@ -110,12 +114,32 @@ main {
 	left: 40vw;
 }
 
+.btn {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 40%;
+	left: 95%;
+}
+
+.btn > button {
+	background-color: transparent;
+	border: none;
+	font-size: 3rem;
+	color: #c2c2c2;
+}
+
+.btn > button:nth-of-type(2) {
+	transform: rotate(180deg);
+}
+
 .slide {
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	display: none;
 	overflow-y: scroll;
-	padding: 0 100px;
+	padding: 0 100px 0 50px;
 }
 
 .slide:nth-of-type(1) {
@@ -124,7 +148,7 @@ main {
 
 input[name = name] {
 	border: none;
-	background: #61ffd2;
+	background: var(--main-color);
 	font: inherit;
 	text-align: inherit;
 	font-size: 2rem;
